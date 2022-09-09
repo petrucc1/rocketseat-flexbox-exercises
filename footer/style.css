@@ -1,4 +1,16 @@
-footer {
+body {
+    min-height: 100vh;
     display: flex;
-    justify-content: flex-end;
+    margin: 0;
+}
+
+footer {
+    margin-top: auto;
+    background-color: darkgray;
+    color: white;
+    height: 8rem;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
